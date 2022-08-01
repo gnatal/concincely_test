@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.moviesBox {
+  /* Frame 1126 */
+
+
+/* Auto layout */
+
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 90%;
+  height: 672px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  @media (max-width: 540px) {
+    grid-template-columns: auto;    
+  }
+}

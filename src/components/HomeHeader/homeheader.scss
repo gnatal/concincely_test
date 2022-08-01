@@ -1,0 +1,84 @@
+.headerBox {
+    margin: 20px auto;
+    /* Frame 1133 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+width: 90%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.titleBox {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 100%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.title {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+    
+    
+    /* Charcoal */
+    
+    color: #0C1932;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text {
+    height: 14px;
+    margin-top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+    
+    
+    /* Charcoal 80 */
+    
+    color: rgba(12, 25, 50, 0.8);
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
